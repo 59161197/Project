@@ -31,7 +31,7 @@ app.get('/contacts',(req,res) => {
 
 app.post('/contacts',(req, res) => {
     let newContact = req.body
-    contacts,push(newContact)
+    contacts.push(newContact)
     res.json(newContact)
 
 })
